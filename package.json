@@ -1,0 +1,20 @@
+{
+  "name": "express-versioning",
+  "version": "1.0.0",
+  "description": "Try to versioning on api with EXpressJS",
+  "main": "index.js",
+  "author": "Felix Yunianto Gunawan",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-routes-versioning": "^1.0.1",
+    "express-version-request": "^1.7.0",
+    "express-version-route": "^1.2.1",
+    "totoro-node": "^2.0.5"
+  }
+}
